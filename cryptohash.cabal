@@ -71,8 +71,8 @@ Library
                      Crypto.Hash.Whirlpool
                      Crypto.MAC.HMAC
                      Crypto.MAC.SHA3
-  Other-modules:     Crypto.Hash.Utils
-                     Crypto.Hash.Utils.Cpu
+                     Crypto.Hash.Utils
+  Other-modules:     Crypto.Hash.Utils.Cpu
                      Crypto.Hash.Internal
   ghc-options:       -Wall -O2 -optc-O3 -fno-cse -fwarn-tabs
   C-sources:         cbits/sha1.c
